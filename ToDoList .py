@@ -1,4 +1,4 @@
-
+#CodSoft First Task todo list app in python GUI-based application
 import tkinter as tk                   
 from tkinter import ttk                 
 from tkinter import messagebox          
@@ -75,9 +75,9 @@ if __name__ == "__main__":
     tasks = []  
       
     # defining frames using the tk.Frame() widget  
-    header_frame = tk.Frame(guiWindow, bg = "#FAEBD7")  
-    functions_frame = tk.Frame(guiWindow, bg = "#FAEBD7")  
-    listbox_frame = tk.Frame(guiWindow, bg = "#FAEBD7")  
+    header_frame = tk.Frame(guiWindow, bg = "#add8e6")  
+    functions_frame = tk.Frame(guiWindow, bg = "#add8e6")  
+    listbox_frame = tk.Frame(guiWindow, bg = "#add8e6")  
   
     # using the pack() method to place the frames in the application  
     header_frame.pack(fill = "both")  
@@ -89,8 +89,8 @@ if __name__ == "__main__":
         header_frame,  
         text = "The To-Do List",  
         font = ("Times New Roman", "30"),  
-        background = "#FAEBD7",  
-        foreground = "#8B4513"  
+        background = "#add8e6",  
+        foreground = "#000080"  
     )  
     # using the pack() method to place the label in the application  
     header_label.pack(padx = 20, pady = 20)  
@@ -100,7 +100,7 @@ if __name__ == "__main__":
         functions_frame,  
         text = "Enter the Task:",  
         font = ("Consolas", "11", "bold"),  
-        background = "#FAEBD7",  
+        background = "#ADD8E6",  
         foreground = "#000000"  
     )  
     # using the place() method to place the label in the application  
@@ -111,7 +111,7 @@ if __name__ == "__main__":
         functions_frame,  
         font = ("Consolas", "12"),  
         width = 18,  
-        background = "#FFF8DC",  
+        background = "#000080",  
         foreground = "#A52A2A"  
     )  
     # using the place() method to place the entry field in the application  
@@ -154,10 +154,10 @@ if __name__ == "__main__":
         width = 26,  
         height = 13,  
         selectmode = 'SINGLE',  
-        background = "#FFFFFF",  
+        background = "#ADD8E6",  
         foreground = "#000000",  
-        selectbackground = "#CD853F",  
-        selectforeground = "#FFFFFF"  
+        selectbackground = "#ADD8E6",  
+        selectforeground = "#ADD8E6"  
     )  
     # using the place() method to place the list box in the application  
     task_listbox.place(x = 10, y = 20)  
