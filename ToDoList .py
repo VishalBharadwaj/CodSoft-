@@ -101,7 +101,7 @@ if __name__ == "__main__":
         text = "Enter the Task:",  
         font = ("Consolas", "11", "bold"),  
         background = "#ADD8E6",  
-        foreground = "#000000"  
+        foreground = "#000080"  
     )  
     # using the place() method to place the label in the application  
     task_label.place(x = 30, y = 40)  
@@ -112,7 +112,7 @@ if __name__ == "__main__":
         font = ("Consolas", "12"),  
         width = 18,  
         background = "#000080",  
-        foreground = "#A52A2A"  
+        foreground = "#000080"  
     )  
     # using the place() method to place the entry field in the application  
     task_field.place(x = 30, y = 80)  
@@ -156,8 +156,8 @@ if __name__ == "__main__":
         selectmode = 'SINGLE',  
         background = "#ADD8E6",  
         foreground = "#000000",  
-        selectbackground = "#ADD8E6",  
-        selectforeground = "#ADD8E6"  
+        selectbackground = "#FFB6C1",  
+        selectforeground = "#000080"  
     )  
     # using the place() method to place the list box in the application  
     task_listbox.place(x = 10, y = 20)  
