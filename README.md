@@ -1,5 +1,4 @@
-# CodSoft-
-Internship  
+Python Practice 
 
 **Task 1**
 To Do List 
